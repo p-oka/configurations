@@ -15,6 +15,7 @@ end
 
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
+  bind \c] peco_select_ghq_repository
 end
 
 # ---------------------- #
@@ -42,7 +43,13 @@ set -x PATH $HOME/.rbenv/bin $PATH
 set -x PATH $HOME/.goenv/bin $PATH
 set -x PATH $HOME/.ndenv/bin $PATH
 set -x PATH $HOME/.ndenv/shims $PATH
-set -x PATH $GOPATH/bin $PATH
+set -x PATH $GOROOT/bin $PATH
 
 # GOLANG
 set -x GOPATH $HOME/develop
+
+# FISH
+set fish_greeting
+
+# OTHERS
+set -x GHQ_ROOT $HOME/develop
