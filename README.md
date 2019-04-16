@@ -29,3 +29,8 @@ $ git clone https://github.com/syndbg/goenv.git ~/.goenv
 $ goenv install 1.12.0
 $ goenv global 1.12.0
 ```
+
+## ghq
+```sh
+$ go get github.com/motemen/ghq
+```
