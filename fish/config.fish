@@ -57,4 +57,20 @@ set -x GHQ_ROOT $HOME/develop
 #     SHELL SETTINGS     #
 # ---------------------- #
 
+# prompt
 set fish_greeting
+
+function fish_prompt
+  set_color yellow
+  echo (whoami) '$ '
+end
+
+function fish_right_prompt
+  set_color yellow
+  printf '%s ' (__fish_git_prompt)
+  set_color normal
+  printf '%s' (prompt_pwd)
+end
+
+# alias
+alias vim 'nvim'
