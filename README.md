@@ -22,3 +22,10 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 $ ln -s ~/configurations/fish/config.fish ~/.config/fish
 $ ln -s ~/configurations/fish/fishfile ~/.config/fish
 ```
+
+## goenv
+```sh
+$ git clone https://github.com/syndbg/goenv.git ~/.goenv
+$ goenv install 1.12.0
+$ goenv global 1.12.0
+```
