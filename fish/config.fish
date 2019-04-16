@@ -34,6 +34,8 @@ if command -v goenv 1>/dev/null 2>&1
   goenv init - | source
 end
 
+eval (hub alias -s)
+
 # --------------------- #
 #     ENV VARIABLES     #
 # --------------------- #
@@ -48,8 +50,11 @@ set -x PATH $GOROOT/bin $PATH
 # GOLANG
 set -x GOPATH $HOME/develop
 
-# FISH
-set fish_greeting
-
 # OTHERS
 set -x GHQ_ROOT $HOME/develop
+
+# ---------------------- #
+#     SHELL SETTINGS     #
+# ---------------------- #
+
+set fish_greeting
