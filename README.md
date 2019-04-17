@@ -37,3 +37,12 @@ $ anyenv install nodenv
 ```sh
 $ go get github.com/motemen/ghq
 ```
+
+## tmux
+
+ref. https://github.com/tmux-plugins/tpm
+
+```sh
+$ ln -s ~/configurations/.tmux.conf  ~/
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
