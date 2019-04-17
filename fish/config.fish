@@ -40,7 +40,7 @@ set -x PATH $GOPATH/bin $PATH
 set -x GOPATH $HOME/develop
 
 # OTHERS
-set -x GHQ_ROOT $HOME/develop
+set -x GHQ_ROOT $HOME/develop/src
 
 # ---------------------- #
 #     SHELL SETTINGS     #
