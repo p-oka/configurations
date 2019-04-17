@@ -23,7 +23,8 @@ end
 # ---------------------- #
 
 # anyenv
-status --is-interactive; and source (anyenv init -|psub)
+# status --is-interactive; and source (anyenv init -|psub)
+source (anyenv init - | psub)
 
 # hub
 eval (hub alias -s)
