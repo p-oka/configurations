@@ -36,6 +36,7 @@ eval (hub alias -s)
 # BIN
 set -x PATH $HOME/.anyenv/bin $PATH
 set -x PATH $GOPATH/bin $PATH
+set -x PATH (npm bin -g) $PATH
 
 # GOLANG
 set -x GOPATH $HOME/develop
