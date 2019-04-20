@@ -1,0 +1,1 @@
+runtime! ./settings/*.vim
