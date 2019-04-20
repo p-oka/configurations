@@ -46,3 +46,12 @@ ref. https://github.com/tmux-plugins/tpm
 $ ln -s ~/configurations/.tmux.conf  ~/
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
+
+## vim
+
+```
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ ln -s ~/configurations/vim/.vimrc  ~/.config/nvim/init.vim
+$ ln -s ~/configurations/vim/settings/  ~/.config/nvim/
+$ vim +PluginInstall +qall
+```
