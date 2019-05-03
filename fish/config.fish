@@ -23,8 +23,8 @@ end
 # ---------------------- #
 
 # anyenv
-# status --is-interactive; and source (anyenv init -|psub)
-source (anyenv init - | psub)
+set -x PATH $HOME/.anyenv/bin $PATH
+anyenv init - fish | source
 
 # hub
 eval (hub alias -s)
@@ -34,7 +34,6 @@ eval (hub alias -s)
 # --------------------- #
 
 # BIN
-set -x PATH $HOME/.anyenv/bin $PATH
 set -x PATH $GOPATH/bin $PATH
 set -x PATH (npm bin -g) $PATH
 
