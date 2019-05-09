@@ -1,3 +1,6 @@
+set nocompatible
+filetype off
+
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
@@ -11,11 +14,14 @@ Plugin 'rking/ag.vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'maxmellon/vim-jsx-pretty'
 Plugin 'majutsushi/tagbar'
 Plugin 'soramugi/auto-ctags.vim'
+Plugin 'purescript-contrib/purescript-vim'
 
 call vundle#end()
 
+filetype on
 filetype plugin indent on
 filetype plugin on
 

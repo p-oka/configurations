@@ -30,7 +30,6 @@ syntax on
 filetype plugin indent on
 let g:hi_insert = 'highlight StatusLine guifg=darkblue guibg=darkyellow gui=none ctermfg=blue ctermbg=yellow cterm=none'
 let g:ruby_path = ""
-let g:jsx_ext_required = 0
 highlight LineNr ctermfg=darkyellow
 
 " Configuration for vimgrep
