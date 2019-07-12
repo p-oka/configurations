@@ -12,4 +12,4 @@ let g:go_highlight_build_constraints = 1
 
 autocmd FileType go setlocal noexpandtab
 autocmd FileType go setlocal tabstop=4
-autocmd FileType go setlocal shiftwidth=4<Paste>
+autocmd FileType go setlocal shiftwidth=4
