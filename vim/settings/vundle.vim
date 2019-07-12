@@ -15,9 +15,11 @@ Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'leafgarland/typescript-vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'purescript-contrib/purescript-vim'
+Plugin 'posva/vim-vue'
 
 call vundle#end()
 
