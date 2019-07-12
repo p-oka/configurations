@@ -2,8 +2,9 @@ nnoremap <C-l> :tabnext<CR>
 nnoremap <C-h> :tabprevious<CR>
 nnoremap <C-n> :tabnew<CR>
 nnoremap <C-]> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
-nnoremap <C-t> :TagbarToggle<CR>
+nnoremap <C-b> :TagbarToggle<CR>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 noremap j gj
 noremap k gk
