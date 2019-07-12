@@ -64,3 +64,5 @@ end
 
 # alias
 alias vim 'nvim'
+
+alias dc 'docker-compose'
