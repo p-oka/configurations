@@ -20,6 +20,11 @@ Plugin 'majutsushi/tagbar'
 Plugin 'soramugi/auto-ctags.vim'
 Plugin 'purescript-contrib/purescript-vim'
 Plugin 'posva/vim-vue'
+Plugin 'kamykn/spelunker.vim'
+Plugin 'autozimu/LanguageClient-neovim', {
+  \ 'branch': 'next',
+  \ 'do': 'bash install.sh',
+  \ }
 
 call vundle#end()
 
