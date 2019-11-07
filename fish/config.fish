@@ -35,10 +35,11 @@ eval (hub alias -s)
 
 # BIN
 set -x PATH $GOPATH/bin $PATH
-set -x PATH (npm bin -g) $PATH
 
 # GOLANG
+set -x GOENV_DISABLE_GOPATH 1
 set -x GOPATH $HOME/develop
+set -x GO111MODULE on
 
 # OTHERS
 set -x GHQ_ROOT $HOME/develop/src
