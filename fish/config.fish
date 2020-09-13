@@ -26,15 +26,12 @@ end
 set -x PATH $HOME/.anyenv/bin $PATH
 anyenv init - fish | source
 
-# hub
-eval (hub alias -s)
-
 # --------------------- #
 #     ENV VARIABLES     #
 # --------------------- #
 
 # BIN
-set -x PATH $GOPATH/bin $PATH
+set -x PATH $HOME/develop/bin $PATH
 
 # GOLANG
 set -x GOENV_DISABLE_GOPATH 1
@@ -64,6 +61,7 @@ function fish_right_prompt
 end
 
 # alias
-alias vim 'nvim'
 
 alias dc 'docker-compose'
+alias db 'mysql -h127.0.0.1 -u root -P 3307 fitra_studio_development'
+alias freem "sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a\""
