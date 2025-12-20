@@ -7,7 +7,7 @@ https://brew.sh/
 
 ### Packages
 ```sh
-$ brew install fish git tig neovim peco neovim the_silver_searcher ctags gh
+$ brew install fish git neovim neovim ctags gh
 ```
 
 ## fisher
