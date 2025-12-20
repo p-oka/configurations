@@ -7,14 +7,14 @@ https://brew.sh/
 
 ### Packages
 ```sh
-$ brew install fish hub git tig neovim peco neovim the_silver_searcher ctags tmux
+$ brew install fish hub git tig neovim peco neovim the_silver_searcher ctags
 ```
 
 ## fisher
 
 ### Install
 ```sh
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
 ### Config
