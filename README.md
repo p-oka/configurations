@@ -7,7 +7,7 @@ https://brew.sh/
 
 ### Packages
 ```sh
-$ brew install fish git neovim neovim ctags mise fzf ripgrep lazygit fd eza bat zoxide
+$ brew install fish git neovim neovim ctags mise fzf ripgrep lazygit fd eza bat zoxide ghq
 ```
 
 ## fisher
@@ -21,30 +21,6 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 ```sh
 $ ln -s ~/configurations/fish/config.fish ~/.config/fish/
 $ ln -s ~/configurations/fish/fishfile ~/.config/fish/
-```
-
-## anyenv
-```sh
-$ git clone https://github.com/anyenv/anyenv ~/.anyenv
-$ anyenv install --init
-
-$ anyenv install goenv
-$ anyenv install rbenv
-$ anyenv install nodenv
-```
-
-## ghq
-```sh
-$ go get github.com/motemen/ghq
-```
-
-## tmux
-
-ref. https://github.com/tmux-plugins/tpm
-
-```sh
-$ ln -s ~/configurations/.tmux.conf  ~/
-$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ## vim
