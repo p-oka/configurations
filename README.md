@@ -20,7 +20,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 ### Config
 ```sh
 $ ln -s ~/configurations/fish/config.fish ~/.config/fish/
-$ ln -s ~/configurations/fish/fishfile ~/.config/fish/
+$ ln -s ~/configurations/fish/fish_plugins ~/.config/fish/
 ```
 
 ## vim
