@@ -18,14 +18,6 @@ function fish_user_key_bindings
   bind \c] peco_select_ghq_repository
 end
 
-# ---------------------- #
-#     INITIALIZATION     #
-# ---------------------- #
-
-# anyenv
-set -x PATH $HOME/.anyenv/bin $PATH
-anyenv init - fish | source
-
 # --------------------- #
 #     ENV VARIABLES     #
 # --------------------- #
@@ -64,4 +56,3 @@ end
 
 alias dc 'docker-compose'
 alias db 'mysql -h127.0.0.1 -u root -P 3307 fitra_studio_development'
-alias freem "sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a\""
