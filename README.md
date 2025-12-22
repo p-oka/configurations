@@ -21,6 +21,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 ```sh
 $ ln -s ~/configurations/fish/config.fish ~/.config/fish/
 $ ln -s ~/configurations/fish/fish_plugins ~/.config/fish/
+$ ln -s ~/configurations/ghostty ~/.config/
 ```
 
 ## vim
