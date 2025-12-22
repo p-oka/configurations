@@ -8,6 +8,7 @@ https://brew.sh/
 ### Packages
 ```sh
 $ brew install fish git neovim ctags mise fzf ripgrep lazygit fd eza bat zoxide ghq tig starship
+$ brew install --cask font-jetbrains-mono-nerd-font
 ```
 
 ## fisher

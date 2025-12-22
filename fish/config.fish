@@ -2,6 +2,8 @@
 #     BOOTSTRAP     #
 # ----------------- #
 
+starship init fish | source
+
 
 # ------------------- #
 #     KEY BINDING     #
