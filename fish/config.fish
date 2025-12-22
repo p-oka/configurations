@@ -4,11 +4,24 @@
 
 starship init fish | source
 
+# ---------------- #
+#     FUNCTION     #
+# ---------------- #
+
+function __ghq_fzf_repo
+  set -l repo (ghq list -p | fzf --preview 'eza --tree --level 2 --icons --color=always {}' --preview-window=right:60%)
+  
+  if test -n "$repo"
+    cd $repo
+    commandline -f repaint
+  end
+end
 
 # ------------------- #
 #     KEY BINDING     #
 # ------------------- # 
 
+bind \cg __ghq_fzf_repo
 
 # --------------------- #
 #     ENV VARIABLES     #
